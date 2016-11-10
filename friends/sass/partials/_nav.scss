@@ -1,0 +1,21 @@
+/* Styling for navigation, including top-bar menu  */
+
+#top-bar {
+  .menu-top-menu-container {
+    #menu-top-menu { // ul
+        display: flex;
+        padding-right: 20px;
+        padding-top: 4px;
+        float: right;
+        li.menu-item {
+          //float: right;
+          margin-left: 2em;
+          padding-bottom: 10px;
+          padding-top: 10px;
+          a {
+            color: $topbar_link;
+          }
+        }
+    }
+  }
+}
