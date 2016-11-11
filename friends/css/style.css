@@ -44,6 +44,9 @@ Version: 1.0
 #top-bar {
   background-color: #ba1111; }
 
+#logo {
+  padding: 1.2em; }
+
 .header-image {
   border-top: none; }
 
