@@ -16,4 +16,33 @@ Version: 1.0
 #top-bar {
   background-color: $topbar_bkg;
 }
+
+.header-image {
+  border-top: none;
+}
+
+aside.widget {
+    background: none;
+    box-shadow: none;
+    border: none;
+    ul {
+      list-style-type: none;
+      text-align: center;
+      a {
+        font-weight: bold;
+      }
+    }
+}
+
+aside {
+  .widgettitle {
+    font-size: 1.1em;
+    font-weight: bold;
+    text-align: center;
+    }
+}
+
+
+
+
 @import "partials/media"; // keep at end of of file

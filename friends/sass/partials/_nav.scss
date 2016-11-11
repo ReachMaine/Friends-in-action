@@ -19,3 +19,28 @@
     }
   }
 }
+
+@media (min-width: 60em) {
+  ul#mainnav-menu {
+    display: flex !important;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}
+
+#mainnav, #mainnav-bg-wrap { //remove left and right extension as well as bottom triangles
+  margin: 0;
+}
+
+#mainnav-border {
+  border-top: none;
+}
+
+#footer, #mainnav {
+  background: #ba1111;
+}
+
+#mainnav-menu a {
+  font-weight: bold;
+  font-size: 1.1em;
+}

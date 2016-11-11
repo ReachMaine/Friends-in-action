@@ -1,10 +1,10 @@
-@import url("../zeetasty/style.css");
 /*
 Theme Name: FriendsInAction
 Description: This is a child theme for Friends In Action
 Template: zeetasty
 Version: 1.0
 */
+@import url("../zeetasty/style.css");
 /* Colors ---------------------------------------------- */
 /* Styling for navigation, including top-bar menu  */
 #top-bar .menu-top-menu-container #menu-top-menu {
@@ -17,7 +17,25 @@ Version: 1.0
     padding-bottom: 10px;
     padding-top: 10px; }
     #top-bar .menu-top-menu-container #menu-top-menu li.menu-item a {
-      color: white; }
+      color: #FFFFFF; }
+
+@media (min-width: 60em) {
+  ul#mainnav-menu {
+    display: flex !important;
+    flex-wrap: wrap;
+    justify-content: space-around; } }
+#mainnav, #mainnav-bg-wrap {
+  margin: 0; }
+
+#mainnav-border {
+  border-top: none; }
+
+#footer, #mainnav {
+  background: #ba1111; }
+
+#mainnav-menu a {
+  font-weight: bold;
+  font-size: 1.1em; }
 
 /* =Theme customization starts here */
 #wrapper {
@@ -25,6 +43,24 @@ Version: 1.0
 
 #top-bar {
   background-color: #ba1111; }
+
+.header-image {
+  border-top: none; }
+
+aside.widget {
+  background: none;
+  box-shadow: none;
+  border: none; }
+  aside.widget ul {
+    list-style-type: none;
+    text-align: center; }
+    aside.widget ul a {
+      font-weight: bold; }
+
+aside .widgettitle {
+  font-size: 1.1em;
+  font-weight: bold;
+  text-align: center; }
 
 /* ----  Media Settings --------------------------------- */
 /* end Media Settings ------------------------------------------ */
