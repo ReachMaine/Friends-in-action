@@ -13,10 +13,15 @@ Version: 1.0
 
 /* =Theme customization starts here */
 
-h1, h2, h3, h4, h5, .page-title, .post-title, .widgettitle {
+h1, h2, h3, h4, h5, .page-title, .post-title, .widgettitle, #mainnav ul li a, #menu-top-menu li a {
   font-family: 'Montserrat';
 }
 
+.homepage {
+  .rpwe-title, .tribe-events-title {
+    font-size: 20px!important;
+  }
+}
 
 #wrapper {
   border-top: 0px;
