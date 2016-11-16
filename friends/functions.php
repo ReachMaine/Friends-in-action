@@ -54,4 +54,17 @@ require_once(get_stylesheet_directory().'/custom/language.php'); */
 	}
 	add_action( 'init', 'register_top_menu' );
 
+/* add widget area in header (right of logo) */
+if ( function_exists('register_sidebar') ){
+		// Banner Ad
+		 register_sidebar(array(
+				'name' => 'Header Widget',
+				'id' => 'header-widget',
+				'description' => 'Right of Logo',
+				'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+				'after_widget'  => '</aside>',
+				'before_title'  => '<h3 class="widget-title">',
+				'after_title'   => '</h3><div class="tx-div small"></div>',
+		));
+	} //function_exists('register_sidebar')
 ?>

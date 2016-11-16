@@ -2,6 +2,8 @@
 <?php /*
 	10Nov16 zig:  - add gtm code.
 								- add top-bar menu abover header
+	15Nov16 TimS - add google font Montserrat
+	16Nov16 zig: - add widget area after logo in header.
 */ ?>
 <html <?php language_attributes(); ?>>
 
@@ -47,7 +49,11 @@
 		<?php endif; ?>
 
 		</div>
-
+		<div id="header-widget-area">
+			<?php if ( is_active_sidebar( 'header-widget') ) {
+				dynamic_sidebar( 'header-widget' );
+			}  ?>
+		</div>
 	</header>
 	<?php themezee_header_after(); // hook after #header ?>
 
