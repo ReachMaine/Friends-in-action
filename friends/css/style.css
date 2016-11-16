@@ -47,18 +47,40 @@ Version: 1.0
 .tribe-events-widget-link {
   font-weight: bold; }
 
+ul.ecs-event-list {
+  list-style: none;
+  margin-left: 0px; }
+  ul.ecs-event-list img {
+    float: left;
+    margin: 0px 10px 10px 0px; }
+
 /* ----- Recent Posts Extended ----*/
 .rpwe-block h3.rpwe-title {
   font-weight: bold;
   line-height: 18px;
   margin-top: 10px !important; }
 
+.homepage .rpwe-summary {
+  font-size: 100%; }
+
+.homepage .rpwe-block li {
+  border-bottom: none;
+  padding-bottom: 0px; }
+
 /* =Theme customization starts here */
+.home .page-title {
+  display: none; }
+
+.home .entry {
+  margin-top: 0px; }
+
 h1, h2, h3, h4, h5, .page-title, .post-title, .widgettitle, #mainnav ul li a, #menu-top-menu li a {
   font-family: 'Montserrat'; }
 
 .homepage .rpwe-title, .homepage .tribe-events-title {
   font-size: 20px !important; }
+.homepage h2 {
+  margin: 0; }
 
 #wrapper {
   border-top: 0px; }
@@ -88,4 +110,12 @@ aside .widgettitle {
   text-align: center; }
 
 /* ----  Media Settings --------------------------------- */
+@media screen and (min-width: 601px) {
+  .one_half {
+    width: 48% !important;
+    padding-right: 1%; }
+
+  .one_half.last_column {
+    width: 50% !important;
+    padding-right: 0px; } }
 /* end Media Settings ------------------------------------------ */
