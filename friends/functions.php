@@ -61,8 +61,8 @@ if ( function_exists('register_sidebar') ){
 				'name' => 'Header Widget',
 				'id' => 'header-widget',
 				'description' => 'Right of Logo',
-				'before_widget' => '<aside id="%1$s" class="widget %2$s">',
-				'after_widget'  => '</aside>',
+				'before_widget' => '<div id="%1$s" class="widget %2$s">',
+				'after_widget'  => '</div>',
 				'before_title'  => '<h3 class="widget-title">',
 				'after_title'   => '</h3><div class="tx-div small"></div>',
 		));

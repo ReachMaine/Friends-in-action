@@ -44,6 +44,20 @@ h1, h2, h3, h4, h5, .page-title, .post-title, .widgettitle, #mainnav ul li a, #m
 
 #logo {
   padding: 1.2em;
+  max-width: inherit;
+  float: left;
+}
+#header-widget-area {
+  float: right;
+  .widget {
+    background-color: transparent;
+    box-shadow: none;
+    border: 0px;
+    input {
+      border: 0px;
+    }
+  }
+
 }
 
 .header-image {
