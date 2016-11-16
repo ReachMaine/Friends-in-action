@@ -89,7 +89,18 @@ h1, h2, h3, h4, h5, .page-title, .post-title, .widgettitle, #mainnav ul li a, #m
   background-color: #ba1111; }
 
 #logo {
-  padding: 1.2em; }
+  padding: 1.2em;
+  max-width: inherit;
+  float: left; }
+
+#header-widget-area {
+  float: right; }
+  #header-widget-area .widget {
+    background-color: transparent;
+    box-shadow: none;
+    border: 0px; }
+    #header-widget-area .widget input {
+      border: 0px; }
 
 .header-image {
   border-top: none; }
@@ -118,4 +129,25 @@ aside .widgettitle {
   .one_half.last_column {
     width: 50% !important;
     padding-right: 0px; } }
+@media only screen and (max-width: 60em) {
+  #logo {
+    text-align: center;
+    float: none; }
+
+  #header-widget-area {
+    float: none;
+    text-align: center; }
+    #header-widget-area .widget {
+      padding: 0px;
+      margin-bottom: 0px; }
+
+  ul#menu-top-menu {
+    width: 100%;
+    display: flex;
+    justify-content: space-around; }
+    ul#menu-top-menu li {
+      font-size: .8em; }
+
+  ul#menu-top-menu li:first-child {
+    display: none; } }
 /* end Media Settings ------------------------------------------ */
