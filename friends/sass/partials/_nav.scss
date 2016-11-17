@@ -31,13 +31,15 @@
 #mainnav, #mainnav-bg-wrap { //remove left and right extension as well as bottom triangles
   margin: 0;
 }
-
+#mainnav {
+  border-top-color: $navborder;
+}
 #mainnav-border {
   border-top: none;
 }
 
 #footer, #mainnav {
-  background: #ba1111;
+  background: $menuBar_bkg;
 }
 
 #mainnav-menu a {

@@ -13,7 +13,13 @@ Version: 1.0
 @import "partials/columns";
 
 /* =Theme customization starts here */
-
+body {
+  background-image: none!important;
+  background-color: $sitebkg;
+  p {
+    font-size: larger;
+  }
+}
 .home .page-title {
   display: none;
 }
