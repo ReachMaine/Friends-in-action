@@ -1,10 +1,10 @@
+@import url("../zeetasty/style.css");
 /*
 Theme Name: FriendsInAction
 Description: This is a child theme for Friends In Action
 Template: zeetasty
 Version: 1.0
 */
-@import url("../zeetasty/style.css");
 /* Colors ---------------------------------------------- */
 /* Styling for navigation, including top-bar menu  */
 #top-bar .menu-top-menu-container #menu-top-menu {
@@ -17,7 +17,7 @@ Version: 1.0
     padding-bottom: 10px;
     padding-top: 10px; }
     #top-bar .menu-top-menu-container #menu-top-menu li.menu-item a {
-      color: #FFFFFF; }
+      color: white; }
 
 @media (min-width: 60em) {
   ul#mainnav-menu {
@@ -27,11 +27,14 @@ Version: 1.0
 #mainnav, #mainnav-bg-wrap {
   margin: 0; }
 
+#mainnav {
+  border-top-color: #bae6ea; }
+
 #mainnav-border {
   border-top: none; }
 
 #footer, #mainnav {
-  background: #ba1111; }
+  background: #2eb3c1; }
 
 #mainnav-menu a {
   font-weight: bold;
@@ -61,13 +64,20 @@ ul.ecs-event-list {
   margin-top: 10px !important; }
 
 .homepage .rpwe-summary {
-  font-size: 100%; }
+  font-size: larger; }
 
 .homepage .rpwe-block li {
   border-bottom: none;
   padding-bottom: 0px; }
 
 /* =Theme customization starts here */
+body {
+  background-image: none !important;
+  background-color: #bae6ea; }
+  body p,
+  body #content ul li {
+    font-size: larger; }
+
 .home .page-title {
   display: none; }
 
@@ -76,6 +86,9 @@ ul.ecs-event-list {
 
 h1, h2, h3, h4, h5, .page-title, .post-title, .widgettitle, #mainnav ul li a, #menu-top-menu li a {
   font-family: 'Montserrat'; }
+
+#mainnav-menu ul a {
+  font-size: .9em; }
 
 .homepage .rpwe-title, .homepage .tribe-events-title {
   font-size: 20px !important; }
@@ -86,7 +99,7 @@ h1, h2, h3, h4, h5, .page-title, .post-title, .widgettitle, #mainnav ul li a, #m
   border-top: 0px; }
 
 #top-bar {
-  background-color: #ba1111; }
+  background-color: #2eb3c1; }
 
 #logo {
   padding: 1.2em;
